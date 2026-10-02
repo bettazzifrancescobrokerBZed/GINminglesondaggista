@@ -1,0 +1,35 @@
+[
+    {
+        "id": "task_profilo_gin_00",
+        "modulo": "profilo_anagrafico_gin",
+        "parametri": {}
+    },
+    {
+        "id": "task_email_gin_01",
+        "modulo": "scanner_email_gin",
+        "parametri": {
+            "imap_server": "imap.gmail.com",
+            "email_user": "Bettazzifg@gmail.com",
+            "email_pass": "bowvgphnrrkfogmi",
+            "filtro mittente": "mingle",
+            "filtro oggetto": ""
+        }
+    },
+    {
+        "id": "task_browser_gin_01",
+        "modulo": "flusso_continuo_browser_gin",
+        "parametri": {
+            "headless": false,
+            "url_login": "https://mingle.respondi.it/login",
+            "sito_user": "Bettazzifg@gmail.com",
+            "sito_pass": "08081973Gf@"
+        }
+    },
+    {
+        "id": "task_report_gin_01",
+        "modulo": "generatore_report_gin",
+        "parametri": {
+            "output_file": "report_giornaliero_gin.json"
+        }
+    }
+]
